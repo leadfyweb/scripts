@@ -11,7 +11,6 @@ npm audit fix
 npm audit --audit-level=high
 
 curl -o leadyfyscript-move-import-css.js https://raw.githubusercontent.com/leadfyweb/scripts/main/move-import-css.js
-
 node leadyfyscript-move-import-css.js src/index.css
 rm leadyfyscript-move-import-css.js
 
