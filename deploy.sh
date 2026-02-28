@@ -15,6 +15,8 @@ curl -o leadyfyscript-move-import-css.js https://raw.githubusercontent.com/leadf
 node leadyfyscript-move-import-css.js src/index.css
 rm leadyfyscript-move-import-css.js
 
+rm bun.lockb
+
 git push origin HEAD:deploy --force
 
 echo "Deploy bem sucedido"
