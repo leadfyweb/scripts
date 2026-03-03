@@ -16,6 +16,8 @@ rm leadyfyscript-move-import-css.js
 
 rm bun.lockb
 
+git add .
+git commit -m "deploy script"
 git push origin HEAD:deploy --force
 
 echo "Deploy bem sucedido"
